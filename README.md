@@ -11,13 +11,13 @@ Application with two modules, for basic operations like as sum, subtract, multip
          * GET `http://localhost:8091/api/v1/rest/subtract?a=80&b=20`
          * GET `http://localhost:8091/api/v1/rest/sum?a=80&b=20  `
   
-#Getting Start
+# Getting Start
 * In the directory calculator-wit, run the following command lines:
     * `./gradlew clean build` (To build all modules)
     * `java -jar calculator/build/libs/calculator-0.0.1-SNAPSHOT.jar` (**To run calculator module**)
     * `java -jar rest/build/libs/rest-0.0.1-SNAPSHOT.jar` (**To run rest module**)
 
-###RABBITMQ Docker container configuration
+### RABBITMQ Docker container configuration
     docker run -d -p 5672:5672 -p 15672:15672 --name my-rabbit rabbitmq:3-management
 * Default user and password is **guest / guest**
 * Message queues names/types: _calculator_msg_queue_ (**queue**), _calculator_reply_msg_queue_ (**queue**), _calculator_rpc_exchange_ (**exchange/direct**)
