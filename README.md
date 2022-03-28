@@ -5,11 +5,11 @@ Application with two modules, for basic operations like as sum, subtract, multip
     * This module uses queues to process all operations.
 * The module **rest** expose the URI to send the values.
     * This module expose 5 paths to common users:
-         * GET ${baseURl}:8091/api/v1/rest/send?message=Hello%20World    
-         * GET ${baseURl}:8091/api/v1/rest/division?a=80.30&b=20
-         * GET ${baseURl}:8091/api/v1/rest/multiply?a=80&b=20
-         * GET ${baseURl}:8091/api/v1/rest/subtract?a=80&b=20
-         * GET ${baseURl}:8091/api/v1/rest/sum?a=80&b=20  
+         * GET `http://localhost:8091/api/v1/rest/send?message=Hello%20World  `  
+         * GET `http://localhost:8091/api/v1/rest/division?a=80.30&b=20`
+         * GET `http://localhost:8091/api/v1/rest/multiply?a=80&b=20`
+         * GET `http://localhost:8091/api/v1/rest/subtract?a=80&b=20`
+         * GET `http://localhost:8091/api/v1/rest/sum?a=80&b=20  `
   
 #Getting Start
 * In the directory calculator-wit, run the following command lines:
