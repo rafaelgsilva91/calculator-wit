@@ -1,5 +1,4 @@
 # Description
-
 Application with two modules, for basic operations like as sum, subtract, multiply and division.
 * The module **calculator** process the calc and respond the result of operation.
     * This module uses queues to process all operations.
@@ -11,7 +10,7 @@ Application with two modules, for basic operations like as sum, subtract, multip
          * GET `http://localhost:8091/api/v1/rest/subtract?a=80&b=20`
          * GET `http://localhost:8091/api/v1/rest/sum?a=80&b=20  `
   
-# Getting Start
+# Getting Started
 * In the directory calculator-wit, run the following command lines:
     * `./gradlew clean build` (To build all modules)
     * `java -jar calculator/build/libs/calculator-0.0.1-SNAPSHOT.jar` (**To run calculator module**)
