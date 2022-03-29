@@ -12,7 +12,7 @@ Application with two modules, for basic operations like as sum, subtract, multip
   
 # Getting Started
 * In the directory calculator-wit, run the following command lines:
-    * `./gradlew clean build` (To build all modules)
+    * `./gradlew clean build` (**To build all modules**)
     * `java -jar calculator/build/libs/calculator-0.0.1-SNAPSHOT.jar` (**To run calculator module**)
     * `java -jar rest/build/libs/rest-0.0.1-SNAPSHOT.jar` (**To run rest module**)
 
